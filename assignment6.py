@@ -1,0 +1,8 @@
+grades = 55,70,65,40,90,85,50,77
+
+passed_with_bonus = [round(grade * 1.05, 2) for grade in grades if grade >= 60]
+
+print("Grades after filtering and applying bonus:", passed_with_bonus)
+    
+# passed_with_bonus = [n * (5/100) if n>60 else for n in grades] 
+# print(passed_with_bonus)r
